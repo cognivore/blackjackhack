@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Game Rules Explainer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #222;
+    }
+    ul {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+    .example {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Card Game Rules Explainer</h1>
+
+  <p>In blackjackhack, characters are represented with a hand of playing cards, and each hand is built to a total of <strong>21</strong> points. Every hand also includes an <strong>Ace</strong>, which can be used on defense to boost a card’s value by <strong>+1</strong>.</p>
+
+  <h2>Game Setup</h2>
+  <ul>
+    <li><strong>Hand Total:</strong> Each hand’s card values add up to 21.</li>
+    <li><strong>Card Values:</strong> Cards have numeric values (e.g., 2–10).</li>
+  </ul>
+
+  <h2>Conflict Rules</h2>
+  <ul>
+    <li>Both players play a card face-down from their hands to use as an attack. Then they all reveal played cards.</li>
+    <li>Each player's opponent must respond by discarding cards whose <strong>combined value exceeds</strong> the value of the attacking card.</li>
+    <li><em>Attack bonus effects trigger only if the defender is forced to combine <strong>more than one</strong> card.</em></li>
+    <li><em>Defense bonus effects trigger only if the defender is used <strong>exactly one</strong> card.</em></li>
+  </ul>
+
+  <h2>Suit Effects</h2>
+  <p>Each suit in the game provides a unique effect. Attack effects only come into play when the defender uses multiple cards to meet the defense requirement. Defense effectrs only come into play when the defender uses a single card for defense.</p>
+
+  <h3>Clubs – Power, Strength</h3>
+  <ul>
+    <li><strong>Effect:</strong> When attacking with a Clubs card, if the defender is forced to use multiple cards to defend, after a successful defense they must discard one extra card.</li>
+  </ul>
+
+  <h3>Spades – Feints, Dexterity</h3>
+  <ul>
+    <li><strong>Effect:</strong> When attacking with a Spades card, the attacker may choose a suit. If the defender uses multiple cards in their defense, they cannot use that chosen suit on their next attack.</li>
+  </ul>
+
+  <h3>Hearts – Resistance, Build</h3>
+  <ul>
+    <li><strong>Effect:</strong> When defending with a sole Hearts card, that card gains a +1 bonus to its value.</li>
+  </ul>
+
+  <h3>Diamonds – Control, Cool</h3>
+  <ul>
+    <li><strong>Effect:</strong> When defending with a sole Diamonds card, after a successful defense, the attacker discards a card.</li>
+  </ul>
+
+  <footer>
+    <p>A 2025 hack by Ragana Press.</p>
+  </footer>
+</body>
+</html>
+
